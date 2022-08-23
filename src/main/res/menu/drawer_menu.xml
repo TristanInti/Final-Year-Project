@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="Account">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/editAcc"
+                    android:icon="@drawable/ic_baseline_edit_24"
+                    android:title="Edit Account"
+                    android:enabled="true"/>
+                <item android:id="@+id/delAcc"
+                    android:icon="@drawable/ic_baseline_person_remove_alt_1_24"
+                    android:title="Delete Account"
+                    android:enabled="true"/>
+            </group>
+        </menu>
+    </item>
+    <item android:title="Item">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/home"
+                    android:icon="@drawable/ic_baseline_keyboard_arrow_right_24"
+                    android:title="Home"/>
+
+                <item android:id="@+id/cart"
+                    android:icon="@drawable/ic_baseline_keyboard_arrow_right_24"
+                    android:title="Cart"/>
+
+                <item android:id="@+id/orderHistory"
+                    android:icon="@drawable/ic_baseline_keyboard_arrow_right_24"
+                    android:title="Order History"/>
+
+                <item android:id="@+id/trackDelivery"
+                    android:icon="@drawable/ic_baseline_keyboard_arrow_right_24"
+                    android:title="Order Tracking"/>
+            </group>
+        </menu>
+    </item>
+    <item android:title="User">
+        <menu>
+            <item android:id="@+id/logout"
+                android:title="Logout"
+                android:enabled="true"/>
+        </menu>
+    </item>
+</menu>
